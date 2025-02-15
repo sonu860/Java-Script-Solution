@@ -46,6 +46,15 @@ function printUser2({ naam, umar }) {
     console.log("destructuring user",n , u);
   }
 
-  printUser1(user);
-  printUser2(user);
-  printUser3(user);
+//   printUser1(user);
+//   printUser2(user);
+//   printUser3(user);
+
+
+// destructuring  arr  in function:
+function getresult (){
+    return [28.7041, 77.1025]; // [lat, lon]
+}
+
+const [lat, lon] = getresult();
+console.log(lat);
